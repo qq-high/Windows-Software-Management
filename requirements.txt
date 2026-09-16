@@ -1,0 +1,17 @@
+# Windows 系统优化管家 - 依赖
+# Python 3.10+
+
+# GUI
+PySide6>=6.6.0
+PySide6-Fluent-Widgets[full]>=1.6.0
+
+# 系统 API
+psutil>=5.9.0
+pywin32>=306; sys_platform == "win32"
+wmi>=1.5.1; sys_platform == "win32"
+
+# 文件操作（走回收站）
+send2trash>=1.8.0
+
+# 打包（仅 build.bat 用）
+pyinstaller>=6.0
