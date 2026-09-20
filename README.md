@@ -187,27 +187,3 @@ pip install -r requirements.txt
 # 运行
 python main.py
 ```
-
-### 添加新的清理规则
-编辑 `app/resources/rules/default_rules.json`，按以下格式添加：
-```json
-{
-  "id": "my_rule_id",
-  "category": "应用",
-  "name": "我的规则",
-  "description": "详细说明",
-  "paths": ["%LOCALAPPDATA%\\MyApp\\Cache"],
-  "patterns": ["*"],
-  "min_age_days": 7,
-  "risk": "safe",
-  "requires_admin": false,
-  "enabled_by_default": true
-}
-```
-
-### 反馈与建议
-欢迎提交 Issue 或 PR。
-
----
-
-**祝使用愉快！** 🎉
