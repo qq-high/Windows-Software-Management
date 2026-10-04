@@ -166,7 +166,6 @@
 
 ### 参考的开源项目
 - [BleachBit](https://github.com/bleachbit/bleachbit) - 通用清理标杆
-- [BCUninstaller](https://github.com/BCUninstaller/Bulk-Crap-Uninstaller) - 卸载广度
 - [Winapp2.ini](https://github.com/MoscaDotTo/Winapp2) - 清理规则库标准
 - [Viap](https://github.com/Chunyu33/viap) - 软件搬家设计
 - [FreeMove](https://github.com/imDema/FreeMove) - Junction 实现
